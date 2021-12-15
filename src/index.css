@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040714;
+  color: #f9f9f9;
+  font-family: Assistant,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
